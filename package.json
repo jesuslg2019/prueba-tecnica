@@ -1,0 +1,25 @@
+{
+  "name": "pruebatecnica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "aws-sdk": "^2.829.0",
+    "axios": "^0.21.1",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "serverless-http": "^2.6.1",
+    "supertest": "^6.1.1",
+    "supertest-as-promised": "^4.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
