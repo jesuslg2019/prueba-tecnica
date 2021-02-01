@@ -39,9 +39,9 @@ $ serverless config credentials --provider aws --key xxxxxxxxxx --secret xxxxxxx
 
 ## Ejecutando las pruebas 
 
-_El proyecto levantó dos servicios lambdas que pueden probar por [postman](https://www.postman.com/)_
+_El proyecto levantó tres servicios lambdas que pueden probar por [postman](https://www.postman.com/)_
 
-_Este servicio GET cosume el api de swapi la cual se ha estructurado de una manera distinta. Por query se envian los parámetros **service** los cuales pueden ser: planets, films, people, species, starships, vehicles y **number** del 1 al 10
+_Este servicio GET cosume el api de swapi la cual se ha estructurado de una manera distinta. Por query se envian los parámetros **service** los cuales pueden ser: planets, films, people, species, starships, vehicles y **number** del 1 al 10_
 ```
 GET - https://m5a3lvl36i.execute-api.us-east-1.amazonaws.com/dev?service=planets&number=1
 ```
